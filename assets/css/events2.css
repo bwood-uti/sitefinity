@@ -1,0 +1,126 @@
+
+/* General CSS */
+/* Outer */
+.ui-events .ui-outer {
+    margin: 60px auto;
+    max-width: 900px;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 3px 3px 0px 1px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+/* Item */
+@media(max-width: 500px){
+	.ui-events .ui-item{
+		text-align:center;
+	}
+}
+/* Details */
+.ui-events .ui-details {
+    text-align: center;
+    float: left;
+    width: 120px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+@media(max-width: 500px){
+	.ui-events .ui-details{
+		margin:20px auto 0px;
+		float:none;
+    width:100%;
+	}
+}
+/* Date, Month And Year */
+.ui-events .ui-details h4 {
+    color: #fff;
+    font-size: 70px;
+    line-height: 65px;
+    margin: 0px;
+}
+
+.ui-events .ui-details span {
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+}
+/* Content */
+.ui-events .ui-content {
+    margin-left: 140px;
+}
+
+@media(max-width: 500px){
+	.ui-events .ui-content{
+		margin:30px 0px 20px;
+	}
+}
+/* Heading */
+.ui-events .ui-content h2 {
+    font-size: 38px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.ui-events .ui-content h2 a {
+    color: #777;
+}
+
+@media(max-width: 557px){
+	.ui-events .ui-content h2{
+		margin-bottom:8px;
+	}
+}
+/* Location and User Name */
+.ui-events .ui-content span {
+    margin-right: 8px;
+}
+
+.ui-events .ui-content a {
+    color: #999;
+}
+/* Paragraph */
+.ui-events .ui-content p {
+    /*font-size:13px;
+	line-height:30px;
+	color:#777;*/
+}
+
+.ui-events .ui-content a.btn {
+    color: #fff;
+    border: 0px;
+}
+/* Speakers */
+.ui-events .ui-speakers {
+    max-width: 180px;
+    margin-top: 10px;
+}
+
+@media(max-width: 500px){
+	.ui-events .ui-speakers{
+		margin:13px auto;
+		text-align:center;
+	}
+}
+/* Heading */
+.ui-events .ui-speakers h3 {
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.ui-events .ui-speakers h3 a {
+    color: #777;
+    float: none;
+}
+/* Image */
+.ui-events .ui-speakers a {
+    float: left;
+    width: 40px;
+    margin: 10px;
+}
+
+.ui-events .ui-speakers img {
+    border-radius: 100%;
+}
